@@ -1,50 +1,28 @@
-# Welcome to your Expo app 👋
+# Overview
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This project helped me learn the fundamentals of mobile application development using React Native and Expo. As a software developer, I wanted to better understand how mobile apps handle user interaction, local data storage, and responsive interfaces. Building this application allowed me to gain hands-on experience creating and testing a mobile app on a real device.
 
-## Get started
+The application is a Task Tracker Mobile App that allows users to add, view, and delete tasks. Users can type a task into the input field and save it to the task list. Tasks remain saved even after the app is closed because the app uses local storage with AsyncStorage. Tasks can also be removed by tapping on them.
 
-1. Install dependencies
+The purpose of creating this app was to practice building an interactive mobile application and learn how local storage works in React Native applications.
 
-   ```bash
-   npm install
-   ```
+[Software Demo Video](http://youtube.link.goes.here)
 
-2. Start the app
+# Development Environment
 
-   ```bash
-   npx expo start
-   ```
+The application was developed using Visual Studio Code and Expo. Expo Go was used to test the application on a mobile device during development.
 
-In the output, you'll find options to open the app in a
+The app was built using React Native with TypeScript. The project also uses AsyncStorage to store data locally on the device.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+# Useful Websites
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- [Expo Documentation](https://docs.expo.dev/)
+- [React Native Documentation](https://reactnative.dev/)
+- [AsyncStorage Documentation](https://react-native-async-storage.github.io/async-storage/)
+- [React Navigation Documentation](https://reactnavigation.org/)
 
-## Get a fresh project
+# Future Work
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- Improve the visual design and layout of the application
+- Add categories or priorities for tasks
+- Add task completion tracking and due dates
