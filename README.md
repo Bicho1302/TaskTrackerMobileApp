@@ -6,7 +6,7 @@ The application is a Task Tracker Mobile App that allows users to add, view, and
 
 The purpose of creating this app was to practice building an interactive mobile application and learn how local storage works in React Native applications.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/i-iBKos6uFA)
 
 # Development Environment
 
